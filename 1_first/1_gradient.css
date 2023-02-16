@@ -1,0 +1,147 @@
+.abc{
+    background-color: rgb(192, 188, 188);
+}
+
+.box1{
+    border: 2px solid green;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    padding: 25px;
+    color:lightcyan;
+    /* background-image:linear-gradient(to bottom,red,greenyellow,purple); */
+    background-image:linear-gradient(290deg,red,greenyellow,purple);
+}
+
+#box{
+    border: 2px solid rgb(32, 135, 32);
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    padding: 25px;
+    color: black;
+    background-image: radial-gradient(brown 13%,greenyellow 53%,pink)
+}
+
+.box2{
+    border: 2px solid green;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    padding: 25px;
+    color:lightcyan;
+    /* background-image:linear-gradient(to bottom,red,greenyellow,purple); */
+    background-image: conic-gradient(red,greenyellow,purple);    
+}
+
+.box3{
+    border: 2px solid green;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    padding: 25px;
+    color:lightcyan;
+    background-image: conic-gradient( red,greenyellow,purple);    
+}
+.box4{
+    color: blueviolet;
+    padding: 25px;
+    border: 2px solid;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    text-shadow: 1px 1px 5px red, 5px 5px 5px green ;
+    box-shadow: 5px 5px 5px rgb(72, 72, 212), 5px 5px 5px rgb(237, 76, 103);
+}
+.box5{
+    color: brown;
+    padding: 25px;
+    border: 2px solid;
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+    text-shadow: -5px -5px 5px red, 5px 5px 5px green ;
+    box-shadow: -5px -5px 5px rgb(42, 202, 90), 5px 5px 5px rgb(237, 76, 103);
+}
+
+.doucment{
+    color: blue;
+    border: 1px solid purple;
+    max-height: 150px;
+    margin: 20px;
+    background-image: radial-gradient(pink 25%,yellow);
+    max-width: 600px;
+    overflow: auto;    
+    padding: 10px;
+}
+
+.container {
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.FontImg {
+    height:340px;
+    width: 350px;
+    padding: 15px;
+
+}
+
+.t-left {
+    position: absolute;
+    top: 810px;
+    left: 30px;
+    color:yellow;
+}
+.t-right {
+    position: absolute;
+    top: 810px;
+    right: 385px;
+    color:yellow;
+}
+
+.b-left {
+    position: absolute;
+    bottom: -425px;
+    left: 30px;
+    color:yellow;
+}
+
+
+.b-right {
+    position: absolute;
+    bottom: -425px;
+    right: 385px;
+    color:yellow;
+}
+
+.center {
+    position: absolute;
+    top: 950px;
+    right: 535px;
+    color:yellow;
+}
+
+.R{
+    margin: 50px;
+    padding: 20px;
+    height: 20px;
+    width: 40px;
+    background-color: purple;
+    color: greenyellow;
+    transform: scale(2,1.5);
+    transform: rotate(90deg);
+}
+
+.K{
+    margin: 50px;
+    padding: 20px;
+    height: 20px;
+    width: 40px;
+    background-color: purple;
+    color: greenyellow;
+    transform: scale(2,1.5);
+    transform: rotate(270deg);
+    
+}
