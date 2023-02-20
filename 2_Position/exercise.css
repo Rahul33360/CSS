@@ -1,0 +1,48 @@
+
+.wrapper{   
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.topleft{
+    position: absolute;
+    left: 16px;
+    top: 8px;
+    color: red;
+    font-weight:bolder;
+}
+
+.topright{
+    position: absolute;
+    right: 16px;
+    top: 8px;
+    color: red;
+    font-weight:bolder;
+}
+
+.centre{
+    position: absolute;
+    color: greenyellow;
+    font-weight:bolder;
+    top:50%;
+    left:50%;
+}
+
+.bottomleft{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: red;
+    font-weight: bolder;
+}
+
+.bottomright{
+    position: absolute;
+    right: 16px;
+    bottom: 8px;
+    color: red;
+    font-weight:bolder;
+}
+
+
